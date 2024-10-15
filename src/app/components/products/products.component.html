@@ -1,0 +1,6 @@
+<div class="container mt-4">
+    <h1>{{text}}</h1>
+    <div class="container d-flex">
+        <app-show-general *ngFor="let prod of prods" [prod]="prod"></app-show-general>
+    </div>
+</div>

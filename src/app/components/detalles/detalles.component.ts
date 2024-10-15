@@ -26,4 +26,6 @@ export class DetallesComponent {
   public get prods(): Prod[]{
     return this.ProdService.prods;
   }
+
+  
 }

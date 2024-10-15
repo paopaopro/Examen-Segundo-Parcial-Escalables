@@ -30,6 +30,9 @@ export class ProductsService {
       })
     }
   
+    public getProductById(id: number): Prod | undefined {
+      return this._prods.find(product => product.id === id);
+    }
 
   constructor() { }
 }
